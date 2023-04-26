@@ -1,0 +1,16 @@
+{
+  "title": "Dialectik test",
+  "language": "und",
+  "mainLibrary": "H5P.Dialectik",
+  "embedTypes": [
+    "div"
+  ],
+  "license": "U",
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.Dialectik",
+      "majorVersion": "0",
+      "minorVersion": "1"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@dialectik/h5p-library",
+  "version": "1.0.0",
+  "description": "H5P library for Dialectik",
+  "scripts": {
+    "test": "(rm ./dist/test-dialectik.h5p || true) && cd ./test/ && zip -D -r test-dialectik.h5p * && mv ./test-dialectik.h5p ../dist/test-dialectik.h5p",
+    "build": "(rm ./dist/dialectik.h5p || true) && cd ./src && zip -D -r dialectik.h5p  * && mv ./dialectik.h5p ../dist/dialectik.h5p"
+  },
+  "author": "benoit.rognier@edukera.com",
+  "license": "MIT"
+}

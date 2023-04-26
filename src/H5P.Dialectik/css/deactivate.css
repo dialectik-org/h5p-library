@@ -1,0 +1,12 @@
+.h5p-content .dialectik-container pre > code {
+    /* Reset or override styles */
+    background-color: initial;
+    padding: initial;
+    display: initial;
+    line-height: 1.5;
+    border: initial;
+    border-left-width: initial;
+    max-width: initial;
+    white-space: initial;
+    overflow: initial;
+}

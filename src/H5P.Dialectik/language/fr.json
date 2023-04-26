@@ -1,0 +1,9 @@
+{
+  "semantics": [
+    {
+      "label": "Script de contenu Dialectik",
+      "default": "",
+      "description": "Script React de génération de contenu compilé par Dialectik."
+    }
+  ]
+}
