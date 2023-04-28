@@ -23,6 +23,7 @@ H5P.Dialectik = (function ($) {
    */
   C.prototype.attach = function ($container) {
     var self = this;
+    console.log('Executing Dialectik component ...')
     $container.addClass('dialectik-container');
      // Add root div needed by react.
     $container.append('<div id="root"></div>')
@@ -31,6 +32,11 @@ H5P.Dialectik = (function ($) {
     script.defer = true;
     script.text = window.atob(this.options.script, 'base64');
     $container.append(script);
+    if (this.options.style) {
+      const style = document.createElement('style');
+      style.innerText = window.atob(this.options.style, 'base64')
+      $container.append(style)
+    }
     // TODO - need to wait for image beeing loaded
     // For now using timer. Should wait for image is loaded...
     setTimeout(function () {

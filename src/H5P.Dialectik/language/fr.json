@@ -4,6 +4,11 @@
       "label": "Script de contenu Dialectik",
       "default": "",
       "description": "Script React de génération de contenu compilé par Dialectik."
+    },
+    {
+      "label": "Style du contenu Dialectik",
+      "default": "",
+      "description": "Style du contenu généré par Dialectik."
     }
   ]
 }
