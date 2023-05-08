@@ -40,8 +40,8 @@ H5P.Dialectik = (function ($) {
     // TODO - need to wait for image beeing loaded
     // For now using timer. Should wait for image is loaded...
     setTimeout(function () {
-      self.$.trigger('resize');
-    }, 1000);
+      self.trigger('resize');
+    }, 2000);
   };
 
   return C;

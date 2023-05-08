@@ -16,6 +16,9 @@
       "path": "react/react-dom.min.js"
     },
     {
+      "path": "chakra/chakra.js"
+    },
+    {
       "path": "index.js"
     }
   ],
